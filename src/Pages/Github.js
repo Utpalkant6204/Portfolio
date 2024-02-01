@@ -4,7 +4,7 @@ function Github(){
   return (
     <Layout>
       <div className="flex justify-center items-center h-full">
-        <div className="items-center">Github Page</div>
+        <div className="items-center text-white">Github Page</div>
       </div>
     </Layout>
   )

@@ -15,7 +15,7 @@ export default function Footer() {
             />
           </div>
 
-          <div className="flex mt-4 space-x-5 sm:justify-center footer">
+          <div className="flex mt-4 space-x-5 sm:justify-center items-center footer">
             <Link to="#" className="text-gray-500 hover:text-gray-900">
               <svg
                 className="w-4 h-4"

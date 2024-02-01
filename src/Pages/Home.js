@@ -7,10 +7,8 @@ function Home() {
   return (
     <Layout>
       
-      <div className=" text-white border">
-        <div>Welcome !</div>
-        <div>Hi ! 👋 This is Utpal Kant</div>
-        <div>Software Developer | Student</div>
+      <div className=" text-white text-center">
+        Home
       </div>
     </Layout>
   );
