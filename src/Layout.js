@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import AnimatedCursor from "react-animated-cursor";
+import { Outlet } from "react-router-dom";
 
 
 const Layout = ({ children }) => {
@@ -22,7 +23,8 @@ const Layout = ({ children }) => {
      }}
     />
       <Header/>
-      <main className="min-h-[70vh]">{children}</main>
+      {/* <main className="min-h-[70vh]">{children}</main> */}
+      <Outlet ></Outlet>
       <Footer />
     </div>
   );

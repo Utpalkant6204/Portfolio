@@ -4,9 +4,9 @@ import Footer from "../Components/Footer";
 
 function Home() {
   const backgroundUrl = "https://iili.io/Jl96ur7.jpg";
+  
   return (
     <Layout>
-      
       <div className=" text-white text-center">
         Home
       </div>
