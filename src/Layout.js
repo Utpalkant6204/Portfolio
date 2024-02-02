@@ -27,11 +27,17 @@ const Layout = ({ children }) => {
     //   <Outlet ></Outlet>
     //   <Footer />
     // </>
-    <>
+    // <>
+    //   <Header />
+    //   <Outlet />
+    //   <Footer />
+    // </>
+    
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <Outlet />
+      <main className="flex-grow">{children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 // className="min-h-[100vh]"
