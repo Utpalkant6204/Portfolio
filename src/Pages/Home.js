@@ -8,7 +8,7 @@ function Home() {
   return (
     <Layout>
       <div className=" text-white text-center">
-        Home
+        sdf
       </div>
     </Layout>
   );

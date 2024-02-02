@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <footer className="bg-white border-y absolute left-0 right-0 bottom-0">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-4 lg:py-6">
-        <div className="sm:flex sm:items-center sm:justify-between border border-red-300">
-          <div className="flex sm:items-center sm:justify-center border border-purple-300">
+        <div className="sm:flex sm:items-center sm:justify-between ">
+          <div className="flex sm:items-center sm:justify-center">
             <img
               src="https://iili.io/Jl9z0a2.png"
               alt="logo"

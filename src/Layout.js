@@ -7,26 +7,31 @@ import { Outlet } from "react-router-dom";
 
 const Layout = ({ children }) => {
   return (
-    <div>
-    <AnimatedCursor
-     innerSize={8}
-     outerSize={35}
-     innerScale={1}
-     outerScale={2}
-     outerAlpha={0}
-     hasBlendMode={false}
-     innerStyle={{
-       backgroundColor: 'red'
-     }}
-     outerStyle={{
-       border: '3px solid #2596be'
-     }}
-    />
-      <Header/>
-      {/* <main className="min-h-[70vh]">{children}</main> */}
-      <Outlet ></Outlet>
+    // <>
+    // <AnimatedCursor
+    //  innerSize={8}
+    //  outerSize={35}
+    //  innerScale={1}
+    //  outerScale={2}
+    //  outerAlpha={0}
+    //  hasBlendMode={false}
+    //  innerStyle={{
+    //    backgroundColor: 'red'
+    //  }}
+    //  outerStyle={{
+    //    border: '3px solid #2596be'
+    //  }}
+    // />
+    //   <Header/>
+    //   {/* <main className="min-h-[70vh]">{children}</main> */}
+    //   <Outlet ></Outlet>
+    //   <Footer />
+    // </>
+    <>
+      <Header />
+      <Outlet />
       <Footer />
-    </div>
+    </>
   );
 };
 // className="min-h-[100vh]"
