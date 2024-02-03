@@ -1,16 +1,25 @@
-import Layout from "../Layout";
+import React, { useState, useEffect } from "react";
 import Header from "../Components/Header";
-import Footer from "../Components/Footer";
+import "./home.css";
 
 function Home() {
-  const backgroundUrl = "https://iili.io/Jl96ur7.jpg";
-  
+  const [isVisible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setVisible(true);
+    }, 1000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <Layout>
-      <div className=" text-white text-center">
-        sdf
+    <>
+      <Header />
+      <div className={`header-body ${isVisible ? "show" : ""}`}>
+        <h1 className="header-name text-gray-200">Hey, I'm Utpal Kant 👋</h1>
       </div>
-    </Layout>
+    </>
   );
 }
 

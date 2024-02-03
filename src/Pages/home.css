@@ -1,0 +1,15 @@
+.header-body {
+    position: absolute;
+    left: -100%; 
+    top: 25%;
+    transition: left 2s ease; 
+}
+  
+.header-body.show {
+    left: 9%; 
+    top: 25%;
+}
+
+.header-name{
+    font-size: 4rem;
+}
