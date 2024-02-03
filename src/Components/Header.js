@@ -98,7 +98,7 @@ function Header() {
             </ul>
           </div>
           <div
-            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            className="hidden flex justify-between items-center me-28 w-full lg:flex lg:w-auto lg:order-1"
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
@@ -152,7 +152,7 @@ function Header() {
               </li>
             </ul>
           </div>
-          <div className="hidden lg:flex items-center lg:order-2">
+          {/* <div className="hidden lg:flex items-center lg:order-2">
             <Link
               to="#"
               className="text-white hover:bg-gray-50 hover:text-black focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
@@ -165,7 +165,7 @@ function Header() {
             >
               Get started
             </Link>
-          </div>
+          </div> */}
         </div>
       </nav>
     </header>
