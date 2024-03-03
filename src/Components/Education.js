@@ -15,7 +15,7 @@ const Education = () => {
       >
         Education
       </h2>
-      <div className="px-10 max-[750]:px-0">
+      <div className="px-10 max-[600]:px-0">
         <div className="flex justify-between">
           <h3
             style={{
@@ -23,7 +23,7 @@ const Education = () => {
               color: "#06ED86",
               fontWeight: "400",
             }}
-            className="text-[24px] max-[600px]:text-[16px]"
+            className="text-[24px] max-[600px]:text-[14px]"
           >
             <a href="https://iiitranchi.ac.in/" target="_blank">
               Indian Institute of Information Technology
@@ -36,7 +36,7 @@ const Education = () => {
 
               fontWeight: "400",
             }}
-            className="text-[24px] max-[600px]:text-[14px]"
+            className="text-[24px] max-[600px]:text-[12px]"
           >
             Ranchi, India
           </h3>
