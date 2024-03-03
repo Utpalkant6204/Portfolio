@@ -16,7 +16,7 @@ const Education = () => {
         Education
       </h2>
       <div className="px-10 max-[750]:px-1">
-        <div className="flex justify-between flex-col max-[600px]:flex-row">
+        <div className="flex flex-col sm:flex-row justify-between">
           <h3
             style={{
               fontFamily: "GT Pressura",
@@ -37,7 +37,7 @@ const Education = () => {
 
               fontWeight: "400",
             }}
-            className="text-[24px] sm:text-[14px] md:text-[18px] lg:text-[20px] xl:text-[24px]"
+            className="text-[24px] sm:text-[8px] md:text-[18px] lg:text-[20px] xl:text-[24px]"
           >
             Ranchi, India
           </h3>
