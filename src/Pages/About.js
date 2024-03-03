@@ -41,10 +41,9 @@ function About() {
               style={{
                 fontFamily: "GT Pressura",
                 color: "#06ED86",
-                fontSize: "22px",
+                fontSize: "23px",
                 fontWeight: "400",
               }}
-
             >
               <span className="me-5">🎓</span>
               Indian Institute of Information Technology
@@ -53,7 +52,7 @@ function About() {
               style={{
                 fontFamily: "GT Pressura",
                 color: "#06ED86",
-                fontSize: "24px",
+                fontSize: "23px",
                 fontWeight: "400",
               }}
             >
@@ -61,9 +60,12 @@ function About() {
             </h3>
           </div>
           <p
-            style={{ fontFamily: "GT Pressura", color: "#F1F1F1", fontSize:"18px"}}
+            style={{
+              fontFamily: "GT Pressura",
+              color: "#F1F1F1",
+              fontSize: "17px",
+            }}
             className="mx-10 px-3"
-            
           >
             B. Tech (Hons) in Computer Science and Engineering
           </p>
