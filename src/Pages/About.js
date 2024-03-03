@@ -22,7 +22,7 @@ function About() {
       </div>
 
       <div className="my-14 mx-24 max-[600px]:mx-4 max-[1000px]:mx-8">
-        <h3
+        <h2
           style={{
             fontFamily: "GT Pressura Mono, monospace",
             textTransform: "uppercase",
@@ -31,10 +31,42 @@ function About() {
             color: "#F1F1F1",
             fontWeight: "bold",
           }}
-          className="py-10 px-10 max-[600px]:px-5"
+          className="pt-10 pb-8 px-10 max-[600px]:px-5"
         >
           Education
-        </h3>
+        </h2>
+        <div className="px-10 mx-[750]:px-5">
+          <div className="flex justify-between">
+            <h3
+              style={{
+                fontFamily: "GT Pressura",
+                color: "#06ED86",
+                fontSize: "22px",
+                fontWeight: "400",
+              }}
+              
+            >
+              <span className="me-5">🎓</span>
+              Indian Institute of Information Technology
+            </h3>
+            <h3
+              style={{
+                fontFamily: "GT Pressura",
+                color: "#06ED86",
+                fontSize: "24px",
+                fontWeight: "400",
+              }}
+            >
+              Ranchi, India
+            </h3>
+          </div>
+          <p
+            style={{ fontFamily: "GT Pressura", color: "#F1F1F1" }}
+            className="mx-10 px-3"
+          >
+            B. Tech (Hons) in Computer Science and Engineering
+          </p>
+        </div>
       </div>
     </Layout>
   );
