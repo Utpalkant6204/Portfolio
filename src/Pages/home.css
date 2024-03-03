@@ -1,3 +1,14 @@
+body {
+  /* background-image: url("https://iili.io/Jl96ur7.jpg"); */
+  background-color: #1a1a1a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Source Sans Pro',sans-serif,'GT Pressura','GT Pressura Mono','Freight';
+}
+
+
 .header-body {
     position: absolute;
     left: -100%; 

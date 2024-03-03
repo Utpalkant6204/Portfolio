@@ -4,7 +4,7 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-y absolute left-0 right-0 bottom-0">
+    <footer className="bg-white border-y left-0 right-0 bottom-0">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-4 lg:py-6">
         <div className="sm:flex sm:items-center sm:justify-between ">
           <div className="flex sm:items-center sm:justify-center">

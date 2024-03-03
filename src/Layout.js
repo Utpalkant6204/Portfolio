@@ -4,7 +4,6 @@ import Footer from "./Components/Footer";
 import AnimatedCursor from "react-animated-cursor";
 import { Outlet } from "react-router-dom";
 
-
 const Layout = ({ children }) => {
   return (
     // <>
@@ -32,8 +31,22 @@ const Layout = ({ children }) => {
     //   <Outlet />
     //   <Footer />
     // </>
-    
+
     <div className="flex flex-col min-h-screen">
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={35}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        hasBlendMode={false}
+        innerStyle={{
+          backgroundColor: "red",
+        }}
+        outerStyle={{
+          border: "3px solid #2596be",
+        }}
+      />
       <Header />
       <main className="flex-grow">{children}</main>
       <Footer />
