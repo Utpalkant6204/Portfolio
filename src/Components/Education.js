@@ -15,7 +15,7 @@ const Education = () => {
       >
         Education
       </h2>
-      <div className="px-10 max-[750]:px-1">
+      <div className="px-10 max-[750]:px-0">
         <div className="flex justify-between">
           <h3
             style={{
