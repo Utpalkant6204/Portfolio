@@ -97,8 +97,15 @@ const Experience = () => {
         </p>
         <div className="flex mx-28 my-2">
           <MdSubdirectoryArrowRight color="#F1F1F1" size={"24px"} />
-          <p style={{ fontSize: "20px", color: "#F1F1F1" }}>
-            Worked on projects involving dynamic routing & responsiveness in
+          <p
+            style={{
+              fontSize: "20px",
+              color: "#F1F1F1",
+              textOverflow: "ellipsis",
+            }}
+            className="mx-3"
+          >
+            Worked on projects involving routing and responsiveness in
             single-page applications.
           </p>
         </div>
