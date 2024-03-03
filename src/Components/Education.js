@@ -23,7 +23,7 @@ const Education = () => {
               color: "#06ED86",
               fontWeight: "400",
             }}
-            className="text-[24px] max-[600px]:text-[8px]"
+            className="text-[24px] max-[600px]:text-[14px]"
           >
             <span className="me-5">🎓</span>
             <a href="https://iiitranchi.ac.in/" target="_blank">
@@ -37,7 +37,7 @@ const Education = () => {
 
               fontWeight: "400",
             }}
-            className="text-[24px] max-[600px]:text-[8px]"
+            className="text-[24px] max-[600px]:text-[14px]"
           >
             Ranchi, India
           </h3>
