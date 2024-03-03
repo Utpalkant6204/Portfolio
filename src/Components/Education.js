@@ -2,36 +2,31 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="my-14 mx-4 sm:mx-8 md:mx-16 lg:mx-24 xl:mx-32">
+    <div className="my-14 mx-24 max-[600px]:mx-0 max-[1000px]:mx-8">
       <h2
         style={{
           fontFamily: "GT Pressura Mono, monospace",
           textTransform: "uppercase",
           letterSpacing: "3px",
-          fontSize: "16px",
           color: "#F1F1F1",
           fontWeight: "bold",
         }}
-        className="pt-10 pb-8 px-10 sm:px-8 md:px-6 lg:px-4 xl:px-2"
+        className="pt-10 pb-8 px-10 max-[600px]:px-5 text-[16px]"
       >
         Education
       </h2>
-      <div className="px-10 mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20">
-        <div className="flex flex-col sm:flex-row justify-between">
+      <div className="px-10 max-[750]:px-1">
+        <div className="flex justify-between flex-col max-[600px]:flex-row">
           <h3
             style={{
               fontFamily: "GT Pressura",
               color: "#06ED86",
-              fontSize: "24px",
               fontWeight: "400",
             }}
+            className="text-[24px] sm:text-[8px] md:text-[18px] lg:text-[20px] xl:text-[24px]"
           >
             <span className="me-5">🎓</span>
-            <a
-              href="https://iiitranchi.ac.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://iiitranchi.ac.in/" target="_blank">
               Indian Institute of Information Technology
             </a>
           </h3>
@@ -39,9 +34,10 @@ const Education = () => {
             style={{
               fontFamily: "GT Pressura",
               color: "#06ED86",
-              fontSize: "24px",
+
               fontWeight: "400",
             }}
+            className="text-[24px] sm:text-[14px] md:text-[18px] lg:text-[20px] xl:text-[24px]"
           >
             Ranchi, India
           </h3>
@@ -52,7 +48,7 @@ const Education = () => {
             color: "#F1F1F1",
             fontSize: "18px",
           }}
-          className="mx-4 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-20 px-3"
+          className="mx-10 px-3"
         >
           B. Tech (Hons) in Computer Science and Engineering
         </p>
